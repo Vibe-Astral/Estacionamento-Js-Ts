@@ -1,0 +1,124 @@
+html {
+  width: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.ini h1 {
+  margin-top: 50px;
+  letter-spacing: 20px;
+  font-weight: 900;
+}
+
+.vh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+.vh a {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 2px black;
+  width: 100px;
+  color: black;
+}
+
+.vh a:hover {
+  border-radius: 15px;
+  transition: 300ms;
+}
+
+.container {
+  height: 300px;
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-image: url(/assets/img/estrada.jpg)
+}
+
+.container input {
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#btn button {
+  width: 80px;
+  height: 25px;
+}
+
+#btn button:hover {
+  border-radius: 15px;
+  transition: 300ms;
+}
+
+.table {
+  width: 100vh;
+  height: 90vh;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+  margin-bottom: 50px;
+}
+
+.table th {
+  border: 2px solid black;
+}
+
+.table td {
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+#cad a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 2px black;
+  width: 100px;
+  color: black;
+}
+#cad a:hover {
+  border-radius: 15px;
+  transition: 300ms;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-left: 80px;
+}

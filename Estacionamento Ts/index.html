@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Estacionamento</title>
+</head>
+
+<body>
+  <div class="ini">
+    <h1>Estacionamento <a name="cadas"></a> </h1>
+  </div>
+
+  <div class="vh">
+    <a href="#cadastrados">Cadastrados</a>
+    <div class="container">
+      <input type="text" id="nome" placeholder="Digite o nome do veiculo" autocomplete="off">
+      <input type="text" id="placa" placeholder="Digite a placa do veiculo" autocomplete="off">
+      <div id="btn">
+        <button id="cadastrar">Cadastrar</button>
+      </div>
+    </div>
+  </div>
+  <h1> <a name="cadastrados">Cadastrados</a></h1>
+  <div class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Placa</th>
+          <th>Entrada</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="patio">
+
+      </tbody>
+    </table>
+
+  </div>
+  <div id="cad">
+    <h1><a  href="#cadas">Cadastrar</a></h1>
+  </div>
+  <footer>
+    <p>Projeto feito a partir das orientações do curso Dio SpreadFullStack</p>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
